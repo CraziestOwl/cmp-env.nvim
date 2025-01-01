@@ -56,7 +56,7 @@ source.complete = function(self, _, callback)
 end
 
 source.get_trigger_characters = function()
-  return { "$" }
+  return { "$", '"' }
 end
 
 source.get_keyword_pattern = function()
